@@ -410,12 +410,12 @@ public class FabroadsMod implements ModInitializer {
 			.build();
 
 	//指针方块组注册
-	public static final ItemGroup RoadStickersGROUP = FabricItemGroup.builder(new Identifier("aft_fabroads", "normal_road_blocks"))
+	public static final ItemGroup RoadStickersGROUP = FabricItemGroup.builder(new Identifier("aft_fabroads", "road_stickers"))
 			.icon(() -> new ItemStack(FabroadsMod.LineStraight))
 			.build();
 
 	//物品方块类注册
-	public static final ItemGroup RoadDecorationsGROUP = FabricItemGroup.builder(new Identifier("aft_fabroads", "normal_road_blocks"))
+	public static final ItemGroup RoadDecorationsGROUP = FabricItemGroup.builder(new Identifier("aft_fabroads", "road_decoration"))
 			.icon(() -> new ItemStack(FabroadsMod.Railings))
 			.build();
 }
